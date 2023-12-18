@@ -1,0 +1,25 @@
+// Footer mobile (750px) start
+@media(max-width:750px) {
+    .nav-footer {
+        width: 100%;
+    
+        margin-top: 0;
+    }
+    .footer-registry {
+        margin-top: 30px;
+    }
+    .nav-list__footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .nav-item__footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        margin-top: 35px;
+    }
+}
+// Footer mobile (750px) end

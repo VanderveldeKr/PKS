@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
+@font-face { 
+    font-family: "DroidSansRegular";
+    src: url("/assets/fonts/DroidSansRegular/DroidSansRegular.eot");
+    src: url("/assets/fonts/DroidSansRegular/DroidSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("/assets/fonts/DroidSansRegular/DroidSansRegular.woff") format("woff"),
+    url("/assets/fonts/DroidSansRegular/DroidSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+$Gray: #E9EBEB;
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;//400,500,700
+    background-color: #fff;
+    color: #000000;
+    font-size: 18px;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+
+    a {
+        color: #000000;
+    }
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+}
+
+
+//text start
+.page-title {
+    font-size: 1.55em;
+    font-weight: 700;
+    line-height: 128%;
+    letter-spacing: 1px;
+}
+.headline-one {
+    font-weight: 700;
+    font-size: 2.77em;
+}
+.headline-two {
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 128%;
+}
+.text-one {
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 138%;
+}
+.text-two {
+    font-weight: 700;
+    font-size: 0.78em;
+    letter-spacing: 1px;
+    line-height: 257%;
+}
+.text-three {
+    font-weight: 400;
+    font-size: 0.78em;
+    line-height: 221%;
+    letter-spacing: 1px;
+}
+.main-text {
+    font-family: "DroidSansRegular";
+    font-weight: 400;
+    font-size: 0.89em;
+    line-height: 193%;
+    letter-spacing: 1px;
+}
+.home__block-text {
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 172%;
+}
+//text end
+//text mobile start
+@media(max-width:750px) {
+    .page-title {
+        font-size: 0.88em;
+    }
+    .headline-one {
+        font-size: 1.48em;
+    }
+    .headline-two {
+        font-size: 1.38em;//
+    }
+    .text-one {
+        font-size: 0.55em;//
+    }
+    .text-two {
+        font-size: 0.55em;
+    }
+    .text-three {
+        font-size: 0.55em;//
+    }
+    .main-text {
+        font-size: 0.55em;
+    }
+    .home__block-text {
+        font-size: 0.55em;//
+    }
+}
+//text mobile end 
+
+
+//button start
+.button-style {
+    font-size: 0.66em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;           
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 50px;
+    border: 1px solid #598a15;
+    background-color: #598a156a;
+}
+
+.button-style:hover {
+    background-color: #598a15;
+    color: #fff;
+}
+.button-style__dark {
+    font-size: 0.66em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 11px 38px;
+    border: 1px solid #598a15;
+    transition: .3s;
+
+}
+.button-style__dark:hover {
+    color: #fff;
+    background-color: #598a15;
+    transition: .3s;
+
+}
+//button end
+

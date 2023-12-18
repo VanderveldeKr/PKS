@@ -1,0 +1,150 @@
+// logo-search start
+header{
+    width: 100%;
+    padding-bottom: 86px;
+}
+.logo-search {
+    padding: 15px 0;
+}
+.logo-search__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.header-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        padding: 10px 35px;
+        background-color:rgba(89, 138, 21, 0.4156862745);
+        border: 1px solid #598a15;
+        border-radius: 25px;
+        transition: .3s;
+        text-transform: uppercase;
+        color: #fff;
+
+        &:hover{
+            background-color:rgba(89, 138, 21, 1);
+            transition: .3s;
+        }
+    }
+}
+.header-logo a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-weight: 700;
+}
+
+// logo-search end
+
+
+// header-main start
+.header-main {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        background-color: #598a15;
+        opacity: 0.3;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}
+
+.header-main__bacground-img {
+    width: 100%;
+    height: 100%;
+}
+.header-main__about {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+    padding: 33px 25px 25px 16px;
+
+    color: #fff;
+    background-color: #598a15;
+    opacity: .9;
+
+    width: 360px;
+    height: 190px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+// header-main end
+
+
+// header-nav start
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 3px solid #000;
+}
+.nav__list-item {
+    width: 25%;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.nav__list-link {
+    width: 100%;
+    padding: 9px 5px;
+    border-radius: 3px;
+
+    font-size: 0.88em;
+    font-weight: 700;
+    line-height: 126%;
+    text-transform: uppercase;
+    text-align: center;
+
+    transition: .3s;
+}
+.nav__list-link:hover {
+    background: #598a15;
+    color: #fff;
+    transition: .3s;
+}
+.nav__list-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -1px;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    z-index: 1;
+}
+.burger-menu, .mobile__search-icon {
+    display: none;
+}
+// header-nav end
+
+
+
+  
+
+  
+  
+  
+  
+  

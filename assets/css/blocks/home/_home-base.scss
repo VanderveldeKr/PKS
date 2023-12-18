@@ -1,0 +1,44 @@
+.home-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 90px;
+}
+.liner-style__block {
+    width: 100%;
+}
+.liner-style__home {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.liner-style {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    display: flex;
+    align-items: center;
+}
+.home-block__subtext {
+    width: 100%;
+}
+.home-block__text {
+    gap: 26px;
+}
+
+
+//home-base mobile start
+@media(max-width:750px) {
+    .home-main {
+        gap: 25px;
+    }
+    .home-block__text {
+        gap: 16px;
+    }
+    .liner-style__home {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+//home-base mobile end

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title style="text-transform: uppercase;">ПКС</title>
+</head>
+<body>
+    <header>
+        <section class="logo-search">
+            <div class="container">
+              <div class="logo-search__wrapper">
+                <div class="header-logo">
+                  <a href="page-home.html">
+                    <img style="width: 100px; height: 100%;" src="./assets/image/header/logo.png" alt="ООО 'ПСК'"/>
+                    ООО "ПКС"
+                  </a>
+                </div>
+                <span class="mobile__search-icon"><img src="./assets/image/header/icon/search.svg" alt="To start searching"></span>
+                <div class="burger-menu" style="z-index: 20;">
+                  <a href="" class="burger-menu_button">
+                    <span class="burger-menu_lines"></span>
+                  </a>
+                  <nav class="burger-menu_nav home__block-text">
+                    <a href="#home" class="burger-menu_link">Главная</a>
+                    <a href="#galery" class="burger-menu_link">Галерея</a>
+                    <a href="#services" class="burger-menu_link">Услуги</a>
+                    <a href="#contacts" class="burger-menu_link">Контакты</a>
+                    <a href="./assets/poli.pdf" target="_blank" class="burger-menu_link">Политика конфиденциальности</a>
+                  </nav>
+                  <div class="burger-menu_overlay"></div>
+                </div>
+                <div class="header-search">
+                    <a class="open-pop-up" href="">Заявка</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <section class="header-main">
+            <img class="header-main__bacground-img" style="opacity: 0.8; height: 350px; object-fit: cover;"
+            src="./assets/image/header/background-header.png" alt="GEAC Global Environmental Assesment Company"/>
+
+            <div class="container">
+                <div class="header-main__about">
+                    <h2 class="headline-two">ООО «Промкровстрой»</h2>
+                    <p class="text-one">Управляющая компания с большим спектром услуг и большим опытом работы</p>
+                    <p class="text-three">г.Воронеж</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="header-nav">
+            <div class="container">
+                <nav class="navigation">
+                    <ul class="nav__list">
+                        <li class="nav__list-item">
+                            <a href="#home" class="nav__list-link">Главная</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#galery" class="nav__list-link">Галерея</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#services" class="nav__list-link">Услуги</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#contacts" class="nav__list-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+    
+    </header>
+
+    <main>
+        <div class="home-main">
+            <section class="why-we" id="home">
+                <div class="container">
+                    <div class="why-we__wrappeer">
+                        <div class="why-we__image">
+                            <img src="./assets/image/home/one.jpg"
+                            alt="image why-we"/>                               
+                        </div>
+                        <div class="why-we__text home-block__text">
+                            <h4 class="headline-two">Почему мы?</h4>
+                            <p class="home__block-text" style="line-height: 172%;">
+                                Мы предлогаем индивидуальный подход к каждому дому и ориентированы на клиента, и всегда учитываем мнения и пожелания жителей при формировании плана работ.
+                            </p>
+                            <div class="why-me__button">
+                                <a class="button-style__dark" href="page-whywe.html">Оставить заявку</a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="meet-our-team">
+                <div class="container">
+                    <div class="meet-our-team__wrapper">
+                        <div class="meet-our-team__text home-block__text">
+                            <h4 class="headline-two">Кратко о нас</h4>
+                            <p class="home__block-text" style="line-height: 172%;">
+                                Штат сотрудников, у которых колоссальный опыт в системе ЖКХ, прелогаем такие услуги как: выпуск платежного документа (квитанций), работы капитального характера, открытие специального счета дома в банке, 
+                                помощь в оформлении документов и заявки для участия в городских программах и т.д
+                            </p>
+                        </div>
+                        <div class="meet-our-team__image">
+                            <img src="./assets/image/home/two.jpg"
+                            alt="image why-we"/>                               
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="liner-style__block">
+                <div class="container">
+                    <div class="prewiev__title"><h3 class="headline-two">Галерея работ</h3></div>
+                    <div class="liner-style__home">
+                        <div class="liner-style">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="555" height="2" viewBox="0 0 555 2" fill="none">
+                                <path d="M0 1.00016L555 1.00005" stroke="black" stroke-width="0.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="prewiev-insights" id="galery">
+                <div class="container">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/1.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Ремонт дымоходов</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/2.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Ремонт вентканалов</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/3.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Ремонт фасада</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/4.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Уборка территорий</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/5.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Опиловка деревьев</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/6.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Ремонт ВРУ</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/7.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Прочистка канализации</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/8.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Ремонт подъезда</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image">
+                                    <img src="./assets/image/home/9.jpg"
+                                    alt="image Mapping the ESG Landscape of Serbia"/>                               
+                                
+                                    <div class="slide-button">
+                                        <a class="slide-link button-style" href="single-post_insights(1).html">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="slide-title">
+                                    <h5 class="text-one">Восстановление входной группы</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button swiper-button-prev">
+                            <img src="./assets/image/home/icon/next.svg" alt="arrow next">
+                        </div>
+                        <div class="swiper-button swiper-button-next">
+                            <img src="./assets/image/home/icon/next.svg" alt="arrow next">
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- <section class="liner-style__block">
+                <div class="liner-style__home">
+                    <div class="liner-style">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="555" height="2" viewBox="0 0 555 2" fill="none">
+                            <path d="M0 1.00016L555 1.00005" stroke="black" stroke-width="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="liner-style__block">
+                <div class="container">
+                    <div class="prewiev__title"><h3 class="headline-two">Услуги</h3></div>
+                    <div class="liner-style__home">
+                        <div class="liner-style">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="555" height="2" viewBox="0 0 555 2" fill="none">
+                                <path d="M0 1.00016L555 1.00005" stroke="black" stroke-width="0.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-we" id="services">
+                <div class="container">
+                    <div class="why-we__wrappeer">
+                        <div class="why-we__text home-block__text" style="width: 50%;">
+                            <h4 class="headline-two">Основные направления деятельности:</h4>
+                            <ul class="home__block-text">
+                                <li style="list-style: circle;">управление многоквартирными домами</li>
+                                <li style="list-style: circle;">капитальный, текущий ремонт многоквартирных домов</li>
+                                <li style="list-style: circle;">автотранспортные услуги специализированной техникой</li>
+                                <li style="list-style: circle;">сбор, транспортировка, обращение с ТКО</li>
+                                <li style="list-style: circle;">благоустройство территорий</li>
+                            </ul>
+                            <div class="why-me__button">
+                                <a class="button-style__dark" href="page-whywe.html">Оставить заявку</a>
+                            </div>    
+                        </div>
+
+                        <div class="why-we__text home-block__text" style="width: 50%;">
+                            <h4 class="headline-two">Краткий перечень самостоятельно оказываемых работ и услуг:</h4>
+                            <ul class="home__block-text">
+                                <li style="list-style: circle;">круглосуточная аварийно-диспетчерская служба</li>
+                                <li style="list-style: circle;">паспортный стол</li>
+                                <li style="list-style: circle;">расчет, выпуск и доставка платежных документов</li>
+                                <li style="list-style: circle;">взаимодействие с ресурсоснабжающими организациями</li>
+                                <li style="list-style: circle;">текущий ремонт (ремонт кровли, сантехники, косметический ремонт подъездов, входных групп, козырьков и т.д.)</li>
+                                <li style="list-style: circle;">вывоз мусора с КП</li>
+                            </ul>
+                            <div class="why-me__button">
+                                <a class="button-style__dark" href="page-whywe.html">Оставить заявку</a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="liner-style__block">
+                <div class="container">
+                    <div class="prewiev__title"><h3 class="headline-two">Контакты</h3></div>
+                    <div class="liner-style__home">
+                        <div class="liner-style">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="555" height="2" viewBox="0 0 555 2" fill="none">
+                                <path d="M0 1.00016L555 1.00005" stroke="black" stroke-width="0.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-we" id="contacts">
+                <div class="container">
+                    <div class="why-we__wrappeer">
+                        <div class="why-we__text home-block__text" style="width: 50%; background-color:rgba(89, 138, 21, 0.4156862745)">
+                            <h4 class="headline-two">г. Воронеж, Ленинский пр-т д. 15</h4>
+                            <ul class="home__block-text">
+                                <li style="list-style: disc;"><a href="tel:+74732493360">Отдел по работе с населением: <span style="color: #598a15;">8(473) 249-33-60</span></a></li>
+                                <li style="list-style: disc;"><a href="tel:+79623492344">Аварийно-диспетчерская служба: <span style="color: #598a15;">8(962) 349-23-44</span></a></li>
+                                <li style="list-style: disc;"><a href="tel:+79204661159">Бухгалтерия по квартплате: <span style="color: #598a15;">8(920) 466-11-59</span></a></li>
+                                <li style="list-style: disc;"><a href="tel:+79065892315">Поверка приборов учета: <span style="color: #598a15;">8(906) 589-23-15</span></a></li>
+                            </ul>
+                            <h4 class="headline-two">г. Воронеж, ул. Перевёрткина д. 35</h4>
+                            <ul class="home__block-text">
+                                <li style="list-style: disc;"><a href="tel:+79056568389">Паспортный стол: <span style="color: #598a15;">8(905) 656-83-89</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="why-we__text home-block__text" style="width: 50%; background-color:rgba(89, 138, 21, 0.4156862745)">
+                            <h4 class="headline-two">Режим работы:</h4>
+                            <ul class="home__block-text">
+                                <li>Понедельник: <span style="color: #598a15;">8:00-17:00</span></li>
+                                <li>Вторник: <span style="color: #598a15;">8:00-17:00</span></li>
+                                <li>Среда: <span style="color: #598a15;">8:00-17:00</span></li>
+                                <li>Четверг: <span style="color: #598a15;">8:00-17:00</span></li>
+                                <li>Пятница: <span style="color: #598a15;">8:00-16:00</span></li>
+                                <li>Суббота: <span style="color: #598a15;">выходной</span></li>
+                                <li>Воскресенье: <span style="color: #598a15;">выходной</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="home-block__subtext">
+                <div class="container">
+                    <div class="home-subtext">
+                        <p class="home__block-text" style="line-height: 116%;">Мы здесь что бы экономить денежные средства жителей</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <a href="page-home.html" style="display: flex; align-items: center; gap: 10px;">
+                            <img style="width: 100px; height: 100%;" src="./assets/image/header/logo.png" alt="ООО 'ПСК'"/>
+                            ООО "ПКС"
+                          </a>
+                    </div>
+                    <nav class="nav-footer">
+                        <ul class="nav-list__footer">
+                            <li class="nav-item__footer">
+                                <a href="page-about.html" class="nav-ling__footer text-two">Главная</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="page-services.html" class="nav-ling__footer text-two">Галерея</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="page-case.html" class="nav-ling__footer text-two">Услуги</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="page-insights.html" class="nav-ling__footer text-two">Контакты</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="./assets/poli.pdf" target=»_blank» class="nav-ling__footer text-two">Политика конфиденциальности</a>
+                            </li>
+                        </ul>
+                    </nav>  
+                    <div class="footer-registry">
+                        <p class="text-three">© 2023 Управляющая компания ООО «Промкровстрой» 394004 г. Воронеж, Ленинский пр-т д. 30, помещ. XIV</p>
+                    </div>  
+                </div>            
+            </div>
+        </div>
+    </footer>
+    <div class="pop-up">
+        <div class="pop-up__container">
+            <div class="pop-up__body">
+                <div class="pop-up__body-text">
+                    <h2>Заявка на вызов оказание платных услуг</h2>
+                    <p>Заполните форму, мы с вами свяжемся в самое ближаейшее время</p>
+                </div>
+                <form class="form-contact form-send" method="post" action="mail.php">
+                    <label>
+                        <p>Имя</p>
+                        <input class="input-form input-form__contact" type="text" name="name">
+                    </label>
+                    <label>
+                        <p>Телефон <span>(Обязательно)</span></p>
+                        <input class="input-form phone input-form__contact" type="phone" name="phone" required>
+                    </label>
+                    <label>
+                        <p>Адрес <span>(Обязательно)</span></p>
+                        <input class="input-form input-form__contact" type="text" name="adress" required>
+                    </label>
+                    <label>
+                        <p>Выберите услугу</p>
+                        <div class="select-listing">
+                            <input class="select__input" type="hidden" name="">
+                            <div class="select__head">Выбрать</div>
+                            <ul class="select__list" style="display: none;">
+                                <li class="select__item">Услуга №1</li>
+                                <li class="select__item">Услуга №2</li>
+                                <li class="select__item">Услуга №3</li>
+                                <li class="select__item">Услуга №4</li>
+                                <li class="select__item">Услуга №5</li>
+                                <li class="select__item">Услуга №6</li>
+                                <li class="select__item">Услуга №7</li>
+                                <li class="select__item">Услуга №8</li>
+                                <li class="select__item">Услуга №9</li>
+                                <li class="select__item">Услуга №10</li>
+                                <li class="select__item">Услуга №11</li>
+                                <li class="select__item">Услуга №12</li>
+                                <li class="select__item">Услуга №13</li>
+                                <li class="select__item">Услуга №14</li>
+                                <li class="select__item">Услуга №15</li>
+                            </ul>
+                        </div>
+                    </label>
+                    <input type="text" name="form-name" value="Форма Звонка" hidden>
+
+                    <button class="form-btn decortion-btn send-form" type="button">позвоните мне</button>
+
+                    <div class="personality">
+                        <input class="custom-checkbox" type="checkbox" required name="cheese" id="cheese" />
+                        <label for="cheese">
+                            <p>Я даю свое согласие на обработку персональных данных и соглашаюсь с <a target=»_blank» href="./assets/poli.pdf">политикой конфиденциальности</a></p>  
+                        </label>
+                    </div>
+                </form>
+                <div class="pop-up__close"></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-thanks">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close btn-close-thanks"></button>
+                    <h2 class="page-title popup__title">Успешно отправлена</h2>
+                    <p class="popup__subtitle">Мы с вами свяжемся</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-error">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close btn-close-error"></button>
+                    <h2 class="page-title popup__title">Произошла ошибка</h2>
+                    <p class="popup__subtitle">Пожалуйста, позвоните или напишите нам на почту</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+</body>
+</html>
